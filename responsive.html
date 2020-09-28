@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta charset="iso-8859-1">
+	<meta name="description" content="Ejemplo HTML5">
+	<meta name="Keywords" content="HTML5, css3, javaScrip">
+
+	<meta name="viewport" content="width=devide-width; initial-scale=1.0">
+
+	<title> Diseño wed adaptable</title>	
+	<script src="modernizr.min.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="responsive/colores.css"/>
+	<link rel="stylesheet" type="text/css" href="responsive/base.css"/>
+	<link rel="stylesheet" type="text/css" href="responsive/grande.css" media="screen and (min-width:981px)"/>
+	<link rel="stylesheet" type="text/css" href="responsive/mediano.css" media="screen and (min-width:481px) and
+	(max-width:980px)"/>
+	<link rel="stylesheet" type="text/css" href="responsive/mini.css" media="screen and (max-width:480px)"/>	
+
+</head>
+
+<body>
+	<header>
+
+	<h1 class="grande">Display Grande</h1>
+	<h2 class="mediano">Display Mediano</h2>
+	<h2 class="mini">Display pequeño</h2>
+
+	</header>
+	
+	<div id="contenedor">
+          
+      <nav id="principal">
+      	<h2>MI MENU</h2>
+      	<ul class="menu grande mediano">
+
+      	<li><a href="">Proyecto</a></li>
+      	<li><a href="">Ejemplos</a></li>
+      	<li><a href="">Practicas</a></li>
+      </ul>
+
+      <select class="mini">
+      <option>Proyecto</option>
+      <option>Ejemplos</option>
+      <option>Practicas</option>
+  </select>
+</nav>
+
+<section id="seccion_principal">
+	<h2>Mi contenido</h2>
+
+	<article>
+		<h3><a href="">Articulo 1</a>></h3>
+		<p class="grande mediano"> Lo espectacular que verás hoy</p>
+	</article>
+
+	<article>
+		<h3><a href="">Articulo 2</a>></h3>
+		<p class="grande mediano"> Lo espectacular que verás hoy</p>
+	</article>
+
+	<article>
+		<h3><a href="">Articulo 3</a>></h3>
+		<p class="grande mediano"> Lo espectacular que verás hoy</p>
+	</article>
+    </section>
+</div>
+
+<footer>
+	<p> Derechos reservados 2020-2021</p>
+	<select class="mini">
+	<option>Proyecto</option>
+	<option>Ejemplos</option>
+	<option>Practicas</option>
+     </select>
+</footer>
+</body>
+</html>

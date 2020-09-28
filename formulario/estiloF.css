@@ -1,0 +1,86 @@
+
+html{
+	background-color: black;
+}
+#registrousuario{
+	background: transparent url("../formulario/formulario2.jpg")no-repeat scroll left bottom;
+	border: medium none;
+	color: black;
+	height: 775px;
+	width: 515px;
+	padding: 0 0 0 50px;
+	margin: 0 auto;
+
+	-moz-border-radius:20px;
+	-webkit-border-radius:20px;
+}
+#registrousuario legend{
+	background: transparent url("../formulario/formulario1.jpg") no-repeat scroll left top;
+	color: black;
+	font-family: Arial;
+	font-size: 21px;
+	letter-spacing: -1px;
+	padding-top: 8px;
+	padding-bottom: 20px;
+	text-transform: capitalize;
+
+	-moz-border-radius:20px;
+	-webkit-border-radius:20px;
+}
+
+#registrousuario input.texto{
+	background: #ffffff url("../formulario/formulario4.jpg") no-repeat scroll left top;
+	border: medium none !important;
+	color: black;
+	font-family: arial, sans-serif;
+    font-size: 12px;
+    letter-spacing: -1px;
+    padding-top: 5px;
+    padding-bottom: 0;
+    padding-left: 5px;
+    height: 24px;
+    width: 454px;
+
+   -moz-border-radius:20px;
+   -webkit-border-radius:20px; 
+}
+
+#registrousuario label{
+	display: block;
+	font-family: aril,sans-serif;
+	font-size: 14px;
+	padding: 10px 0 3px;
+}
+
+#registrousuario textarea.areadetexto{
+	background: #ffffff url("../formulario/formulario3.jpg") no-repeat scroll top left;
+	color: black;
+	font-family: arial,sans-serif;
+	font-size: 12px;
+	padding-top: 5px;
+	padding-bottom: 0;
+	padding-left: 5px;
+	height: 212px;
+	width: 454px;
+	border: none !important;
+    -moz-border-radius:20px;
+   -webkit-border-radius:20px; 
+}
+
+#registrousuario input.botonenviar{
+	background:transparent url("../formulario/enviar.jpg") no-repeat scroll left top;
+	color: black;
+	display: block;
+	float: left;
+	 font-family: arial,sans-serif;
+	 font-size:  12px;
+	 text-align:  center;
+	 height: 30px;
+	 width: 99px;
+	 margin-left:  360px;
+	 margin-top:  20px;
+	 border: none !important;
+
+	 -moz-border-radius:20px;
+   -webkit-border-radius:20px; 
+}
