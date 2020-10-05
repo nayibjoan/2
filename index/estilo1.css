@@ -18,7 +18,7 @@ background-color: pink;
 
 header {
     width: 750px; height: 250px;
-background-color: yellow;
+background-color: rgb(93, 130, 233);
  }
 
 nav {
@@ -38,12 +38,12 @@ background-color: rgb(31, 201, 201);
 
 section#banner{
     width: 500px; height: 250px; float: left;
-background-color: rgba(133, 79, 233, 0.856)
+background-color:  rgb(93, 130, 233);
 }
 
 section#logo{
     width: 250px; height: 125px; float: left;
-background-color: RED;
+background-color: rgb(190, 190, 231);
 }
 
 section#login{
