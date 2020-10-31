@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Menú Vertical Multinivel con HTML5 y CSS 3</title>
+	<link rel="stylesheet" href="https://cdn.rawgit.com/olton/Metro-UI-CSS/master/build/css/metro-icons.min.css">
+	<link rel="stylesheet" type="text/css" href="menu vertical/main.css">
+	
+</head>
+<body>
+	<div class="container">
+		<span class="mif-chevron-left mif-3x boton"></span>
+		<nav>
+			<ul id="menu_principal">
+
+				<li><a href="#"><span class="mif-home mif-3x principales"></span>BANCO</a></li>
+
+
+				<li>
+					<label for="drop-1">
+				<span class="mif-cart mif-3x principales"></span> SEGURIDAD
+						<span class="mif-chevron-right mif-2x derecha"></span>
+						<span class="mif-expand-more mif-2x derecha"></span>
+					</label>
+					<input type="checkbox" id="drop-1">
+
+					<ul>
+						<li><a href="">CONTRASEÑA</a></li>
+						<li><a href="">USUARIO</a></li>
+						<li><a href="">NUMERO DE CUENTA</a></li>
+						<li><a href="">CLAVE INTERVANCARIA</a></li>
+					
+					</ul>
+				</li>
+
+
+				<li>
+					<label for="drop-2">
+						<span class="mif-widgets mif-3x principales"></span>TOKEN MOVIL
+						<span class="mif-chevron-right mif-2x derecha"></span>
+						<span class="mif-expand-more mif-2x derecha"></span>
+					</label>
+					<input type="checkbox" id="drop-2">
+
+					<ul>
+						<li><a href="">RECONOCIMIENTO FACIAL</a></li>
+
+						<li>
+							<label for="drop-3">
+								CLAVE SMS
+								<span class="mif-chevron-right mif-2x derecha"></span>
+								<span class="mif-expand-more mif-2x derecha"></span>
+							</label>
+							<input type="checkbox" id="drop-3">
+							<ul>
+							
+								
+							</ul>
+
+						</li>
+
+						
+					</ul>
+					
+				</li>
+
+
+				<li><a href=""><span class="mif-organization mif-3x principales"></span>OPERACIONES QR</a></li>
+				<li><a href=""><span class="mif-contacts-mail mif-3x principales"></span>SUCURSALES</a></li>
+			</ul>
+		</nav>
+	</div>
+
+	<script src="menu vertical/main.js"></script>
+
+
+	
+<div class="login-box">
+	
+	<br><h3>
+	<SCRIPT TYPE="text/javascript" LANGUAGE="JavaScript">
+	<!--
+	function saludar(){
+	
+	var tiempo = new Date();
+	var hora, cad="son las ";
+	with (tiempo){
+	hora = getHours();
+	cad += hora + ":" + getMinutes()+":"+getSeconds();
+	}
+	if (hora < 12)
+	  cad = "Buenos días‍, "+ cad;
+	else if (hora < 18)
+		 cad = "Buenas tardes‍, "+ cad;
+	else
+		 cad = "Buenas noches‍, " + cad;
+	
+	return cad
+	}
+	// -->
+	</SCRIPT>
+	
+	<br>
+	<SCRIPT TYPE="text/javascript" LANGUAGE="JavaScript">
+	<!--
+	document.write(saludar());
+
+	-->
+	</SCRIPT>
+	<br>
+	<br>
+		
+	<div style="float:center;">
+	<script type="text/javascript">
+	//<![CDATA[
+	function makeArray() {
+	for (i = 0; i<makeArray.arguments.length; i++)
+	this[i + 1] = makeArray.arguments[i];}
+	var months = new makeArray('Enero','Febrero','Marzo','Abril','Mayo',
+	'Junio','Julio','Agosto','Septiembre','Octubre','Noviembre','Diciembre');
+	var date = new Date();
+	var day = date.getDate();
+	var month = date.getMonth() + 1;
+	var yy = date.getYear();
+	var year = (yy < 1000) ? yy + 1900 : yy;
+	document.write(" " + day + " de " + months[month] + " del " + year);
+	//]]>
+	
+	</script>  
+	<br>	<br>
+	<section id="logo" ><center><img src="loginhtml/transferiri.jpg" height="122" width="220"></center></section>
+	<a>TRANSFERIR DINERO</a>
+
+		<br><br>
+		<section id="logo" ><center><img src="loginhtml/PAGAR.jpg" height="122" width="220"></center></section>
+		<a>PAGO DE SERVICIOS</a>
+
+			<br>
+		<section id="logo" ><center><img src="loginhtml/CONSULTA.png" height="122" width="220"></center></section>
+		<BR><a>RETIRAR DINERO</a>
+			<section id="logo" ><center><img src="loginhtml/RETIRAR.jpg" height="122" width="220"></center></section>
+		
+</body>
+</html>

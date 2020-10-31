@@ -1,0 +1,94 @@
+body{
+	margin: 0;
+	padding: 0;
+	background:url(../loginhtml/fondo.jpg) no-repeat center top;
+	background-size: cover;
+	font-family:sans-serif;
+	height: 100vh;
+	
+}
+h3{
+	
+	font-size: 14px;
+}
+
+.login-box{
+width: 900px;
+height: 420px
+background: #000;
+color: #fff;
+top: 50%;
+left: 50%;
+position: absolute;
+transform: translate(-50%, -50%);
+box-sizing: border-box;
+padding: 70px 320px;
+color: #000000 ;
+}
+
+.login-box .avatar {
+	width: 100px;
+	height: 100px;
+	border-radius: 5%;
+	position: absolute;
+	top: -50px;
+	left: calc(50% - 50px);
+}
+
+.login-box h1{
+	margin: 0;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size: 22px;
+}
+
+.login-box label{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	display: block;
+}
+.login-box input{
+	width: 100%;
+	margin-bottom: 20%;
+}
+.login-box input[type="text"],
+.login-box input[type="password"]{
+	border: none;
+	border-bottom: 1px solid rgb(8, 8, 8);
+	background:transparent;
+	outline: none;
+	height: 30px;
+	color: rgb(117, 235, 225);
+	font-variant-position: 
+	font-size: 16px;
+}
+
+.login-box input[type="submit"]{
+	
+    border: none;
+    outline: none;
+    height: 40px;
+    background: rgb(236, 223, 105);
+	color: rgb(0, 0, 0);
+	font-size: 18px;
+	border-radius: 20px;	
+}
+
+.login-box a{
+	text-decoration: none;
+	font-size: 12px;
+	line-height: 20px;
+	color: rgb(26, 22, 22);
+}
+
+.login-box a:hover {
+	color: rgb(226, 223, 10);
+}
+h2{
+	
+	font-size: 1px;
+	text-align: center;	
+	color: rgb(226, 223, 10);
+	background-color: rgb(33, 175, 231);
+}

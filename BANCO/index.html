@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Form Login </title>
+	<link rel="stylesheet" href="loginhtml/master.css">
+</head>
+<body>
+
+<div class="login-box">
+<img class ="avatar" src="loginhtml/banco.jpg" >
+<h3>
+<SCRIPT TYPE="text/javascript" LANGUAGE="JavaScript">
+<!--
+function saludar(){
+
+var tiempo = new Date();
+var hora, cad="son las ";
+with (tiempo){
+hora = getHours();
+cad += hora + ":" + getMinutes()+":"+getSeconds();
+}
+if (hora < 12)
+  cad = "Buenos días‍, "+ cad;
+else if (hora < 18)
+     cad = "Buenas tardes‍, "+ cad;
+else
+     cad = "Buenas noches‍, " + cad;
+
+return cad
+}
+// -->
+</SCRIPT>
+
+
+<SCRIPT TYPE="text/javascript" LANGUAGE="JavaScript">
+<!--
+document.write(saludar());
+-->
+</SCRIPT>
+<div style="float:right;">
+<script type="text/javascript">
+//<![CDATA[
+function makeArray() {
+for (i = 0; i<makeArray.arguments.length; i++)
+this[i + 1] = makeArray.arguments[i];}
+var months = new makeArray('Enero','Febrero','Marzo','Abril','Mayo',
+'Junio','Julio','Agosto','Septiembre','Octubre','Noviembre','Diciembre');
+var date = new Date();
+var day = date.getDate();
+var month = date.getMonth() + 1;
+var yy = date.getYear();
+var year = (yy < 1000) ? yy + 1900 : yy;
+document.write(" " + day + " de " + months[month] + " del " + year);
+//]]>
+
+</script>  
+</h3><br>
+
+<form>
+	<!--USERNAME -->
+	<label for="username">Nombre de Usuario</label>
+	<input type="text" placeholder="Introducir Nombre de Usuario">
+
+	<!--PASSWORD -->
+	<label for="password">Password</label>
+	<input type="password" placeholder="Introdusca Password">
+
+    
+    <h2><a href="Mvertical.html">INICIA SECION </a></h2>
+  
+    </form>
+     </div>
+   </body>
+</html>
