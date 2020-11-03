@@ -5,6 +5,9 @@
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<title>Form Login </title>
 	<link rel="stylesheet" href="loginhtml/master.css">
+	<link rel="stylesheet" href="https://cdn.rawgit.com/olton/Metro-UI-CSS/master/build/css/metro-icons.min.css">
+	<link rel="stylesheet" type="text/css" href="menu vertical/main.css">
+	
 </head>
 <body>
 
@@ -56,7 +59,7 @@ document.write(" " + day + " de " + months[month] + " del " + year);
 //]]>
 
 </script>  
-</h3><br>
+</h3><br><br>
 
 <form>
 	<!--USERNAME -->
@@ -68,9 +71,76 @@ document.write(" " + day + " de " + months[month] + " del " + year);
 	<input type="password" placeholder="Introdusca Password">
 
     
-    <h2><a href="Mvertical.html">INICIA SECION </a></h2>
+    <h2><a href=" ">INICIA SECION </a></h2>
   
     </form>
-     </div>
+	 </div>
+	 <div class="container">
+		<span class="mif-chevron-left mif-3x boton"></span>
+		<nav>
+			<ul id="menu_principal">
+
+				<li><a href="#"><span class="mif-home mif-3x principales"></span>BANCO</a></li>
+
+
+				<li>
+					<label for="drop-1">
+				<span class="mif-cart mif-3x principales"></span> SEGURIDAD
+						<span class="mif-chevron-right mif-2x derecha"></span>
+						<span class="mif-expand-more mif-2x derecha"></span>
+					</label>
+					<input type="checkbox" id="drop-1">
+
+					<ul>
+						<li><a href="">CONTRASEÑA</a></li>
+						<li><a href="">USUARIO</a></li>
+						<li><a href="">NUMERO DE CUENTA</a></li>
+						<li><a href="">CLAVE INTERVANCARIA</a></li>
+					
+					</ul>
+				</li>
+
+
+				<li>
+					<label for="drop-2">
+						<span class="mif-widgets mif-3x principales"></span>TOKEN MOVIL
+						<span class="mif-chevron-right mif-2x derecha"></span>
+						<span class="mif-expand-more mif-2x derecha"></span>
+					</label>
+					<input type="checkbox" id="drop-2">
+
+					<ul>
+						<li><a href="">RECONOCIMIENTO FACIAL</a></li>
+
+						<li>
+							<label for="drop-3">
+								CLAVE SMS
+								<span class="mif-chevron-right mif-2x derecha"></span>
+								<span class="mif-expand-more mif-2x derecha"></span>
+							</label>
+							<input type="checkbox" id="drop-3">
+							<ul>
+							
+								
+							</ul>
+
+						</li>
+
+						
+					</ul>
+					
+				</li>
+
+
+				<li><a href=""><span class="mif-organization mif-3x principales"></span>OPERACIONES QR</a></li>
+				<li><a href=""><span class="mif-contacts-mail mif-3x principales"></span>SUCURSALES</a></li>
+			</ul>
+		</nav>
+	</div>
+
+	<script src="menu vertical/main.js"></script>
+
+
+	
    </body>
 </html>
