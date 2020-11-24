@@ -48,8 +48,8 @@ $resultado = $mysqli->query($sql);
 	echo "precio:", ($_POST['precio']); 
 	echo "<br><br>";	
 	 ?>
-	<a href="https://nayibjoan.github.io/2/agencia-autos/consulta.php">consulta
-
+	<a href="http://localhost/agencia-autos/consulta.php">consulta
+		     
 	</a>
 
 

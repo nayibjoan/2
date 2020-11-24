@@ -76,6 +76,6 @@ $resultadoAut = $mysqli->query($aut);
 			?>
 		</FORM>
 	</section>
-<a href="http://localhost/agencia-autos/frmformulario.html">ingresar registro</a>
+<a href="frmformulario.html">ingresar registro</a>
 </body>
 </html>
