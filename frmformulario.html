@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta charset="iso-8859-1">
+    <meta name="description" content="Ejemplo HTML5">
+    <meta name="keywords" content="HTML5, CSS3, JavaScript">
+    <title>Formulario De Alta</title>
+    <script src="modernizr.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../agencia-autos/estilos/estilo.css">                          
+</head>
+
+<body>
+    
+    <fieldset id="registrouser">
+        <form name="registro" action="http://localhost/agencia-autos/insertarcoches.php" method="post">
+
+        <legend>Registro De Coches</legend>
+        <label for="vehiculo">Selecciona Marca Del Vehiculo:</label>
+        <select name="marca">
+        
+        <option>BMW</option>
+        <option>KIA</option>
+        <option>NISSAN</option>
+        <option>CHRYSLER</option>
+        <option>VOLKSWAGEN</option>
+        <option>CHEVROLET</option>
+            
+        </select>
+        
+        <label for="modelo">Indique El Modelo:</label>
+        <input type="text" name="modelo" class="texto" size="45">
+
+        <label for="color">Indique El Color:</label>
+        <input type="text" name="color" class="texto" size="45">
+
+        <label for="anio">Año De Matriculacion:</label>
+
+        <input type="text" name="fecha" class="texto" size="45">
+
+        <label for="radio">Combustible:</label>
+        <input type="radio" name="combustible" value="Diesel" checked>Diesel<br>
+        <input type="radio" name="combustible" value="Gasolina" checked>Gasolina<br>
+
+        <label for="precio">Precio:</label>
+        <input type="text" name="precio" class="texto" size="45">
+        <br>
+        <input type="submit" name="inserta" class="botonenviar" value="Enviar">
+
+        </form>
+
+</fieldset>
+</body>
+</html>
