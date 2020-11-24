@@ -48,7 +48,7 @@ $resultado = $mysqli->query($sql);
 	echo "precio:", ($_POST['precio']); 
 	echo "<br><br>";	
 	 ?>
-	<a href="consulta.php">consulta
+	<a href="http://localhost/agencia-autos/consulta.php">CONSULTA
 
 	</a>
 
