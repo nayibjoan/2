@@ -3,8 +3,8 @@ require 'conexion.php';
 
 $aut= "SELECT * FROM autos";
 $resultadoAut = $mysqli->query($aut);
-
 ?>
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -23,7 +23,8 @@ $resultadoAut = $mysqli->query($aut);
 	<header>
 		<h2>mostrar registros de la base de datos php</h2>
 	</header>
-	<section>
+	    <section>
+		
 		
 		<FORM METHOD="POST">
 
@@ -39,17 +40,18 @@ $resultadoAut = $mysqli->query($aut);
 				<th>selecionar</th>
 			</tr>
 			<?php
-			while ($resultadoAutcon=$resultadoAut->fetch_array(mysqli_both))
+
+			while ($resultadoAutCon=$resultadoAut->fetch_array(MYSQLI_BOTH))
 			 {
 				echo '<tr>
-				<td>'.$resultadoAutcon['id'].'</td>
-				<td>'.$resultadoAutcon['marca'].'</td>
-				<td>'.$resultadoAutcon['modelo'].'</td>
-				<td>'.$resultadoAutcon['combustible'].'</td>
-				<td>'.$resultadoAutcon['color'].'</td>
-				<td>'.$resultadoAutcon['fecha'].'</td>
-				<td>'.$resultadoAutcon['precio'].'</td>
-				<td><input type="checkbox" name="eliminar[]" values="'.$resultadoAutcon['id'].'"/>
+				<td>'.$resultadoAuton['id'].'</td>
+				<td>'.$resultadoAutCon['marca'].'</td>
+				<td>'.$resultadoAutCon['modelo'].'</td>
+				<td>'.$resultadoAutCon['combustible'].'</td>
+				<td>'.$resultadoAutCon['color'].'</td>
+				<td>'.$resultadoAutCon['fecha'].'</td>
+				<td>'.$resultadoAutCon['precio'].'</td>
+				<td><input type="checkbox" name="eliminar[]" values="'.$resultadoAutCon['id'].'"/>
 				</tr>';
 			}
 			?>
